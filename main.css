@@ -129,6 +129,40 @@ a:hover {
   margin: 0 .5rem;
 }
 
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+
+}
+
+...
+
+@media (min-width: 768px) {
+
+  .text {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  .text h1 {
+    font-size: 7rem;
+  }
+
+}
+
+...
+
+@media (min-width: 768px) {
+
+  .tagline {
+    text-transform: uppercase;
+  }
+
+}
+
 /* =============================
 
       LOCATIONS STYLES
@@ -145,6 +179,21 @@ a:hover {
 
 .blurb div {
   font-family: 'Muli', sans-serif;
+}
+
+@media (min-width: 768px) {
+
+  .blurb {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .blurb::after {
+    display: none;
+  }
+
 }
 
 /* =============================
@@ -173,6 +222,16 @@ a:hover {
 
 .program ul {
   letter-spacing: .025rem;
+	list-style-type: none;
+}
+
+@media (min-width: 768px) {
+
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
+
 }
 
 /* =============================
@@ -229,6 +288,26 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
+@media (min-width: 768px) {
+
+  .question-group {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .question-group::after {
+    display: none;
+  }
+
+  .question-group h3 {
+    text-align: left;
+  }
+
+}
+
 /* =============================
 
         FOOTER STYLES
@@ -258,6 +337,14 @@ footer p {
 
 footer small {
   line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+
+  footer {
+    min-height: 7vh;
+  }
+
 }
 
 
